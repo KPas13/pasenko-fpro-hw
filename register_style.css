@@ -1,0 +1,70 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFDBAA;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+
+span{
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+}
+
+table {
+    display: block;
+}
+
+
+.main-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container {
+    width: 300px;
+    height: 100%;
+    background-color: #378862;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-btn {
+    margin: 0 auto;
+    width: 80px;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.city-select {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.radio-btns {
+    display: flex;
+}
+
+.info-table {
+    margin-top: 20px;
+}
+
+.male {
+    margin-left: 10px;
+}

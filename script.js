@@ -67,7 +67,6 @@ let tableRow = document.querySelector('#name-order');
 let categoryBtn = document.querySelector('#category-btn');
 let productShopInfoBlock = document.querySelector('#product-shop-info');
 
-
 // Creating an event to go to the registration form
 btn.addEventListener('click', () => {
     window.location.href = 'registerForm/register.html';

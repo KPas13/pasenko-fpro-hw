@@ -2,9 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>OnlineMagazine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <button class="btn" id="btn">RegisterForm</button>
+    <button class="order-btn" id="order-btn">Your Orders</button>
+    <button class="category-btn" id="category-btn">Categories</button>
 
+    <h1 class="page-title">Category</h1>
+    <div class="categories" id="categories"></div>
+    <div class="product-wrapper" id="product-wrapper"></div>
+    <div class="info-wrapper" id="info-wrapper"></div>
+    <div class="orders-block" id="orders-block">
+        <h2 class="order-title">Orders</h2>
+        <table class="orders-table" id="order-table">
+            <tr>
+                <td id="name-order"></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <div class="product-shop-info" id="product-shop-info"></div>
+
+<script src="script.js"></script>
 </body>
 </html>

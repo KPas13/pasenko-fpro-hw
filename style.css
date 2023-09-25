@@ -1,0 +1,14 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.table-body {
+    border: 1px solid black;
+}
+
+.table-cell {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}

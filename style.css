@@ -1,0 +1,13 @@
+body {
+    font-family: 'Martian Mono', monospace;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}

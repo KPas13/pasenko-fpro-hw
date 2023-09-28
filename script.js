@@ -60,11 +60,10 @@ dollarParagraph.innerHTML = dollarPrice;
 
 // Дане деяке число. Визначити, чи можна одержати це число шляхом зведення числа 3 у деякий ступінь.
 // (Наприклад, числа 9, 81 можна отримати, а 13 - не можна).
-
-let num3 = +prompt('Enter the number', '1');
-let numPar3 = document.querySelector('#number3');
-
-let logOfThree = (number) => number > 0 && Math.log10(number) / Math.log10(3) % 1 === 0;
-
-if(logOfThree(num3)) numPar3.textContent = 'Ok';
-else numPar3.textContent = 'No';
+// let num3 = +prompt('Enter the number', '1');
+// let numPar3 = document.querySelector('#number3');
+//
+// let logOfThree = (number) => number > 0 && Math.log10(number) / Math.log10(3) % 1 === 0;
+//
+// if(logOfThree(num3)) numPar3.textContent = 'Ok';
+// else numPar3.textContent = 'No';

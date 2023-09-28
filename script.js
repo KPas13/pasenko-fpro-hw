@@ -3,7 +3,6 @@ let secondPage = document.querySelector('#second-page');
 
 function linkProtocoleCheck(event) {
     let linkToPage = event.target.getAttribute('href');
-    console.log(linkToPage);
     if (!linkToPage.startsWith('http://') || !linkToPage.startsWith('https://')) {
         linkToPage = "http://" + linkToPage;
     }

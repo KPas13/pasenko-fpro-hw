@@ -7,10 +7,7 @@ class Person {
 
 
 class Apartment {
-    constructor() {
-        this.residents = [];
-    }
-
+    residents = [];
     addResident(person) {
         if(person instanceof Person) {
             this.residents.push(person);
@@ -61,9 +58,7 @@ console.log(apartment2);
 let house = new House(10);
 
 house.addApartment(apartment1);
-console.log(house);
 house.addApartment(apartment2);
-console.log(house);
 house.addApartment(apartment3);
 console.log(house);
 // house.addApartment(apartment2);

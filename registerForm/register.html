@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 21</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="register_style.css">
+</head>
+<body>
+  <div class="container">
+
+    <h1 class="text-main">Register</h1>
+    <form action="" class="form-container" id="form-container">
+      <label for="username" class="text-input">
+        <input type="text" id="username"/> Username
+      </label>
+      <span id="usernameError"></span>
+
+      <label for="surname" class="text-input">
+        <input type="text" id="surname"/> Surname
+      </label>
+      <span id="surnameError"></span>
+
+      <label for="birthDate" class="text-input">
+        <input type="text" id="birthDate"/> Birth Date
+      </label>
+      <span id="birthError"></span>
+
+      <h2>Gender</h2>
+      <div class="radio-btns">
+        <label for="sexF"> Female
+          <input type="radio" id="sexF" name="gender" value="Female">
+        </label>
+
+        <label for="sexM" class="male"> Male
+          <input type="radio" id="sexM" name="gender" value="Male">
+        </label>
+      </div>
+      <span id="sexError"></span>
+
+
+      <h2>City</h2>
+      <select name="city" id="city-select" class="city-select">
+          <option>Kharkiv</option>
+          <option>Cherkasy</option>
+          <option>Dnipro</option>
+      </select>
+      <span id="cityError"></span>
+
+      <h2>Address</h2>
+      <textarea id="address-text" rows="1" cols="5"></textarea>
+      <span id="addressError"></span>
+
+
+      <h2>Languages</h2>
+        <label for="my-check1">
+            <input type="checkbox" name="language" id="my-check1" value="English"> English
+        </label>
+        <label for="my-check2">
+            <input type="checkbox" name="language" id="my-check2" value="Ukrainian"> Українська
+        </label>
+        <label for="my-check3">
+            <input type="checkbox" name="language" id="my-check3" value="Germany"> Deutch
+        </label>
+      <span id="languageError"></span>
+
+
+        <button type="submit" class="sign-btn" id="sign-btn">Sign Out</button>
+
+    </form>
+
+    <table class="info-table" id="info-table">
+      <tr>
+        <td>Name: </td>
+        <td id="name"></td>
+      </tr>
+      <tr>
+        <td>Surname: </td>
+        <td id="userSurname"></td>
+      </tr>
+      <tr>
+        <td>Birth Date: </td>
+        <td id="birth"></td>
+      </tr>
+      <tr>
+        <td>Sex: </td>
+        <td id="sex"></td>
+      </tr>
+      <tr>
+        <td>City: </td>
+        <td id="city"></td>
+      </tr>
+      <tr>
+        <td>Address: </td>
+        <td id="address"></td>
+      </tr>
+      <tr>
+        <td>Languages: </td>
+        <td id="languages"></td>
+      </tr>
+    </table>
+
+  </div>
+  <script src="register.js"></script>
+</body>
+</html>

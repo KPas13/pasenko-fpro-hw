@@ -1,0 +1,8 @@
+.weather-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    width: 50px;
+}
